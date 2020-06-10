@@ -1,0 +1,27 @@
+
+.navbar-brand {
+  color: #c7004c;
+  font-weight: bold;
+  font-size:4rem;
+  font-family: 'Abril Fatface', cursive;
+
+}
+h3{
+font-family: 'Playfair Display', serif;
+}
+#movies img, #movie img{
+  width:100%;
+}
+.search{
+  margin-bottom: 30px;
+}
+
+@media(min-width:960px){
+  #movies .col-md-3 .well{
+    height: 350px;
+  }
+
+  #movies .col-md-3 img{
+    height:240px;
+  }
+}
